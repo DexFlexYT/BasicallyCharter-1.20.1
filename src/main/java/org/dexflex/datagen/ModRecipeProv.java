@@ -13,6 +13,7 @@ public class ModRecipeProv extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> consumer) {
+        //add recipes here
 
     }
 }

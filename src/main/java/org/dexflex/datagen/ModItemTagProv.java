@@ -13,6 +13,8 @@ public class ModItemTagProv extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
+        //add item tags here
+
 
     }
 }

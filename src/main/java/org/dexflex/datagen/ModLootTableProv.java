@@ -10,6 +10,7 @@ public class ModLootTableProv extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+        //add loot tables here
 
     }
 }

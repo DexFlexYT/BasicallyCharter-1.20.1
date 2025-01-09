@@ -13,7 +13,7 @@ public class ModBlockTagProv extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-
+        //add block tags here
 
 
 
