@@ -1,7 +1,8 @@
 package org.dexflex;
 
 import net.fabricmc.api.ModInitializer;
-
+import org.dexflex.block.ModBlocks;
+import org.dexflex.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +13,8 @@ public class BasicallyCharter implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 		LOGGER.info("Hello Fabric world!");
 	}
