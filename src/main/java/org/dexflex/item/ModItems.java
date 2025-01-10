@@ -13,8 +13,8 @@ public class ModItems {
     public static final Item LESSER_INGOT = registerItem("lesser_ingot", new Item(new FabricItemSettings()));
     public static final Item LESSER_DIVINITY_FRAGMENT = registerItem("lesser_divinity_fragment", new Item(new FabricItemSettings().maxCount(16)));
     public static final Item SIGNED_CONTRACT  = registerItem("signed_contract", new Item(new FabricItemSettings().maxCount(1)));
-    public static final Item LESSER_DIVINITY  = registerItem("lesser_divinity", new LesserDivinityItem(new FabricItemSettings().maxCount(1).maxDamage(2)));
-    public static final Item DUSK_EPITAPH  = registerItem("dusk_epitaph", new SwordItem(ToolMaterials.NETHERITE, 9, 1.5f, new FabricItemSettings()));
+    public static final Item LESSER_DIVINITY  = registerItem("lesser_divinity", new LesserDivinityItem(new FabricItemSettings().maxCount(1).maxDamage(3)));
+    public static final Item DUSK_EPITAPH  = registerItem("dusk_epitaph", new SwordItem(ToolMaterials.NETHERITE, 4, -3.0f, new FabricItemSettings()));
 // registry methods
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(BasicallyCharter.MOD_ID, name),item);

@@ -13,6 +13,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.basically_charter"))
                     .icon(()-> new ItemStack(ModItems.LESSER_DIVINITY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.LESSER_DIVINITY);
+                        entries.add(ModItems.DUSK_EPITAPH);
                         entries.add(ModItems.SIGNED_CONTRACT);
                         entries.add(ModItems.LESSER_INGOT);
                         entries.add(ModItems.LESSER_DIVINITY_FRAGMENT);

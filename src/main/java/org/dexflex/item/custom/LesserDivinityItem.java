@@ -16,11 +16,12 @@ public class LesserDivinityItem extends Item {
     public ActionResult useOnEntity(ItemStack stack, PlayerEntity user, LivingEntity entity, Hand hand) {
         if (entity instanceof ServerPlayerEntity serverPlayer) {
             serverPlayer.changeGameMode(GameMode.SPECTATOR);
+            user.getStackInHand(hand).damage(1, user,
+                    playerEntity -> playerEntity.sendToolBreakStatus(hand));
         } else {
             BasicallyCharter.LOGGER.info("non player entity!!!");
         }
-        user.getStackInHand(hand).damage(1, user,
-                playerEntity -> playerEntity.sendToolBreakStatus(hand));
+
         return ActionResult.CONSUME;
     }
 }
