@@ -24,6 +24,7 @@ public class ModModelProv extends FabricModelProvider {
         itemModelGenerator.register(ModItems.LESSER_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.LESSER_DIVINITY_FRAGMENT, Models.GENERATED);
         itemModelGenerator.register(ModItems.SIGNED_CONTRACT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DUSK_EPITAPH, Models.HANDHELD);
 
     }
 }

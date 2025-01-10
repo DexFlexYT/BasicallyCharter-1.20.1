@@ -5,6 +5,13 @@
 	"mixins": [
 		"ExampleMixin"
 	],
+	"client": [
+		"ItemRendererAccessor",
+		"ItemRendererMixin",
+		"ModelLoaderMixin",
+		"PlayerEntityRendererMixin",
+		"HeldItemRendererMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	}

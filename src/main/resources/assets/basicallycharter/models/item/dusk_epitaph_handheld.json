@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"particle": "basicallycharter:item/dusk_epitaph_handheld",
+		"layer0": "basicallycharter:item/dusk_epitaph_handheld"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, 90, 0],
+			"translation": [0, 8, 2],
+			"scale": [1.75, 1.75, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-45, 90, 0],
+			"translation": [0, 8, 2],
+			"scale": [1.75, 1.75, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [41, 90, 0],
+			"translation": [4, 3, -0.25],
+			"scale": [1.37, 1.37, 1.37]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-50, 90, 0],
+			"translation": [4, 3, -0.25],
+			"scale": [1.37, 1.37, 1.37]
+		},
+		"ground": {
+			"translation": [0, 4, 0]
+		},
+		"fixed": {
+			"scale": [1.43, 1.43, 1.43]
+		}
+	}
+}

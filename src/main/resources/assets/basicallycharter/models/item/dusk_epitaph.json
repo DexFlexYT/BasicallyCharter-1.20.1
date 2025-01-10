@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "basicallycharter:item/dusk_epitaph",
+    "particle": "basicallycharter:item/dusk_epitaph"}
+  }
