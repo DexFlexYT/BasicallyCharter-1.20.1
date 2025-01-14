@@ -1,0 +1,12 @@
+{
+  "dusk_epitaph_attack": {
+    "category": "player",
+    "subtitle": "subtitles.dusk_epitaph_attack",
+    "sounds": [
+      {
+        "name": "basicallycharter:dusk_epitaph_attack",
+        "stream": false
+      }
+    ]
+  }
+}
